@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito','Tahoma';
+
+}
+#header{
+    background-color: #4E73DF;
+}
+
+.main-container{
+    height: 100vh;
+    margin-top: 15vh;
+}
+
+.card{
+    border-radius: 15%;
+}
+.brand-name{
+    font-weight: 600;
+}
+#logo{
+    height: 100px;
+    width: 100px;
+}
+.text-center img {
+    width: 20px;
+    height: auto;
+}
+
+.text-center {
+    font-weight:600;
+}
+
+.text-center h2 {
+    color:#0583d2;
+}
+.col h4 {
+    color: white;
+}
+
+hr {
+    border: 1;
+    clear:both;
+    display:block;
+    width: 50%;               
+    background-color:#ffff;
+    color: #ffff;
+    height: 5px;
+  }
+
+.container-fluid .row ml-2 {
+    color: orange;
+}
+
+
+#rhubg{
+    background-repeat: no-repeat;
+}
+#logo_small{
+    height: 80px;
+}
+#footer{
+    background-color: #344C94;
+}
+#button_submit{
+    background-color: #344C94;
+    color: white;
+
+}
+
+@media only screen and (max-width: 600px) {
+    #main_header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #header_1{
+        flex: 1;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        
+        
+    }
+    #header_2{
+        flex: 7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #header_3{
+        flex: 4;
+    }
+    #logo_small {
+      height: 60px;
+      
+    }
+    #header_title{
+        font-size: 14px;
+    }
+    #header_subtitle{
+        font-size: 12px;
+    }
+    #footer{
+        font-size: 10px;
+
+        
+    }
+  }
+
+
+

@@ -1,0 +1,2 @@
+Note:
+(minor error) Second dose vaccinated at is editable even if doses is finished
