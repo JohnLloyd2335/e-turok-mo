@@ -9,7 +9,7 @@
     <title>E-TUROK MO | LOGIN</title>
     
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
-    <link href="{{ asset('users/css/login_style.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('users/css/login_style.css') }}" rel="stylesheet">
     <!-- <link rel="stylesheet" href="style.css"> -->
 
 </head>
@@ -19,7 +19,7 @@
         <div class="row" id="main_header">
 
             <div class="col col-md-1 d-flex align-items-center justify-content-end" id="header_1">
-                <img src="{{ asset('images/pila_logo.png') }}" alt="LOGO"  id="logo_small">
+                <img src="{{ secure_asset('images/pila_logo.png') }}" alt="LOGO"  id="logo_small">
             </div>
             <div class="col col-md-4 d-flex flex-column align-items-start justify-content-center text-light" id="header_2">
                 <h3 id="header_title">RURAL HEALTH UNIT OF PILA LAGUNA</h3>
